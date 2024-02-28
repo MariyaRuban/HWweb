@@ -35,7 +35,7 @@ public class HWwebTest {
     }
 
     @Test
-    void shouldTest() throws InterruptedException {
+    void shouldTest() {
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Воронов Филипп");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79651897403");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
